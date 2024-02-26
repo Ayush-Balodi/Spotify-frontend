@@ -339,6 +339,16 @@ a{
     margin-right:1rem;
 }
 
+.control-volume{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor:pointer;
+}
+
+.control-volume i{
+    margin-right: 0.125rem;
+}
 .volume-bar{
     width:70%;
     appearance: none;
@@ -358,4 +368,25 @@ a{
     background-color: #1bd760;
     border-radius:50%;
     margin-top: -6px;
+}
+
+.album{
+    display: flex;
+    flex-direction:row;
+}
+
+.album img{
+    width: 60px;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.album-text{
+    font-size: 0.85rem;
+    margin-right: 1rem;
+}
+
+.album i{
+    align-self: center;
+    color:#1bd760;
 }
